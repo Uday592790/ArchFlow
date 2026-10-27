@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ArchFlow — Architecture That Scales
 
-## Getting Started
+ArchFlow is a modern web experience focused on software architecture, enterprise platform engineering, cloud-native solutions, and intelligent automation.
 
-First, run the development server:
+**Live Website:** https://archflow-6nme.vercel.app/  
+**Source Code:** https://github.com/Uday592790/ArchFlow
+
+## Overview
+
+ArchFlow presents architecture-led engineering services through a modern, responsive interface. It is designed to communicate technical capabilities, engineering principles, and scalable software solutions.
+
+## Features
+
+- Modern, dark-themed interface
+- Interactive animated network visualization
+- Responsive website layout
+- Navigation for engineering services and company information
+- Sections covering cloud-native engineering, security, scalability, and automation
+- Contact and enquiry interface
+
+*Feature descriptions should be adjusted if any listed functionality is not implemented in the current version.*
+
+## Technology Stack
+
+- **Frontend:** React, Next.js, TypeScript
+- **Styling:** Project CSS and configured styling libraries
+- **Development:** Node.js and npm
+- **Deployment:** Vercel
+- **Version Control:** Git and GitHub
+
+## Run Locally
+
+### Prerequisites
+
+Install Node.js and npm.
+
+### Installation
 
 ```bash
+git clone https://github.com/Uday592790/ArchFlow.git
+cd ArchFlow
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```text
+ArchFlow/
+├── app/
+├── components/
+├── public/
+├── package.json
+├── package-lock.json
+├── next.config.ts
+└── README.md
+```
 
-## Learn More
+## Deployment
 
-To learn more about Next.js, take a look at the following resources:
+The project is deployed on Vercel.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Visit: https://archflow-6nme.vercel.app/
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Future Improvements
 
-## Deploy on Vercel
+- Improve accessibility and mobile usability
+- Add automated testing
+- Improve error handling for interactive features
+- Document configuration and deployment requirements
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License and Attribution
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Retain the original project's license and attribution requirements. Confirm that you have permission to reuse and redistribute the source code before publishing it.
+
+---
+
+Developed and maintained by **Uday Kiran Sankula**.
